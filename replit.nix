@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.youtube-dl-light
     pkgs.python310Full
     pkgs.replitPackages.prybar-python310
     pkgs.replitPackages.stderred

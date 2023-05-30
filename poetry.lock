@@ -338,6 +338,17 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "pafy"
+version = "0.5.5"
+description = "Retrieve YouTube content and metadata"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+youtube-dl-backend = ["youtube-dl"]
+
+[[package]]
 name = "pandas"
 version = "1.5.3"
 description = "Powerful data structures for data analysis, time series, and statistics"
@@ -435,6 +446,14 @@ numpy = ">=1.16.4"
 [package.extras]
 carto = ["pydeck-carto"]
 jupyter = ["ipywidgets (>=7,<8)", "traitlets (>=4.3.2)", "ipython (>=5.8.0)", "ipykernel (>=5.1.2)"]
+
+[[package]]
+name = "pydub"
+version = "0.25.1"
+description = "Manipulate audio with an simple and easy high level interface"
+category = "main"
+optional = false
+python-versions = "*"
 
 [[package]]
 name = "pyflakes"
@@ -858,7 +877,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "08d3130c52fe870969596d35f2ea9b67f7c10cf926a78fc9daeb6f808fd96867"
+content-hash = "6986383498da8ecf2ad8ed7c728d9f90616cceb04d414bde3a0fefc75095b73e"
 
 [metadata.files]
 aiohttp = []
@@ -891,6 +910,7 @@ mdurl = []
 multidict = []
 numpy = []
 packaging = []
+pafy = []
 pandas = []
 parso = []
 pillow = []
@@ -899,6 +919,7 @@ pluggy = []
 protobuf = []
 pyarrow = []
 pydeck = []
+pydub = []
 pyflakes = []
 pygments = []
 pympler = []
